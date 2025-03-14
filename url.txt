@@ -1,0 +1,3 @@
+http://localhost:8501/
+
+https://lc4uhqhrmfxvtxb75qrf6c.streamlit.app/
