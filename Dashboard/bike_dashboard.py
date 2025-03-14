@@ -5,8 +5,8 @@ import matplotlib.pyplot as plt
 import plotly.express as px
 
 # Load dataset dari GitHub
-url_day = "https://raw.githubusercontent.com/AAmmar01/ProjectDataAnalysis-CodingCampDBS2025/main/day.csv"
-url_hour = "https://raw.githubusercontent.com/AAmmar01/ProjectDataAnalysis-CodingCampDBS2025/main/hour.csv"
+url_day = "Data/day.csv"
+url_hour = "Data/hour.csv"
 day_df = pd.read_csv(url_day, parse_dates=["dteday"])
 hour_df = pd.read_csv(url_hour, parse_dates=["dteday"])
 
